@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto;
+}
+
+body {
+    background: #141414;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+.contenedor {
+position: relative;
+
+}
+
+.hijo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 400px auto;
+    background: #1f1f1f;
+    border-radius: 20px;
+ 
+    
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+span {
+    color: yellow;
+    line-height: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 0px;
+}
+
+
+.sudbox {
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+
+img  {
+   
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.form {
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    letter-spacing: -0.3px;
+}
+
+
+.boton {
+    border: none;
+    background: #3b82f6;
+    border-bottom: 20px;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 15px 
+}
+
+
+.boton:hover {
+background: #2563eb;
+
+}
+
+body > div > div > div.form > a:nth-child(8) > input {
+    margin-bottom: 40px;
+}
